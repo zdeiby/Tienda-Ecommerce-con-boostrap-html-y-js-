@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tienda Online</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+  <body>
+    <!-- HEADER-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Tienda Online</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="carrito.html">Carrito</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Categorias
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="compras.html">Tecnología</a></li>
+                  <li><a class="dropdown-item" href="#">Calzado</a></li>
+                
+                <!--  <li><a class="dropdown-item" href="#">Something else here</a></li>-->
+                </ul>
+              </li>
+              
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Busca un producto" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+   <!-- /HEADER-->
+
+<!-- CONTENIDO -->
+<main id="main">
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="carousel1.jpg" class="d-block w-100" alt="imagen1">
+
+      </div>
+      <div class="carousel-item">
+        <img src="carousel2.jpg" class="d-block w-100" alt="iamgen2">
+      </div>
+      <div class="carousel-item">
+        <img src="carousel3.jpg" class="d-block w-100" alt="imagen3">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</main>
+
+
+  <!--FIN CONTENIDO-->
+
+
+
+    <div class="container" > <!--contenedor principal-->
+        <div class="row"> <!--  filas-->
+            <div class="col text-center">  <!--cada fila tiene maximo para 12 columnas-->
+               <a href="compras.html"><button type="button" class="btn btn-success">Ordene un producto de estos ahora</button></a>
+            </div> 
+        </div>
+    </div>
+
+    
+<section id="speakers" class="mt-4">
+<div class="container ">
+    <div class="row  ">
+        <div class="col-md-4  mb-4  ">
+            <div class="card" style="width: 18rem;">
+                <img src="product1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <span class="badge text-bg-success">Disponible</span>
+                 <h5 class="card-title">Smartwatch T900 Pro Max</h5>
+                  <p class="card-text">Reloj inteligente T900 Pro Max serie 7, puedes contestar tus llamadas desde el altavoz del reloj, puedes colocarle fondo de pantalla, es impermeable, viene en rojo, rosado, negro.</p>
+                 <a href="compras.html" class="btn btn-primary">Ordena Este producto</a>
+             </div>
+            </div>
+        </div>
+        <div class="col-md-4  mb-4  ">
+            <div class="card" style="width: 18rem;">
+                <img src="product2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <span class="badge text-bg-success">Disponible</span>
+                 <h5 class="card-title">Barbera clipper vintaje T90</h5>
+                  <p class="card-text">Una gran maquina inalambrica, viene con 4 cuchillas para corte desde la 1.5mm hasta la 4mm, ideal para perfilar la barba, muy buena durabilidad de la carga, viene en varios diseños.</p>
+                 <a href="compras.html" class="btn btn-primary">Ordena Este producto</a>
+             </div>
+            </div>
+        </div>
+        <div class="col-md-4  mb-4  ">
+            <div class="card" style="width: 18rem;">
+                <img src="product3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <span class="badge text-bg-success">Disponible</span>
+                 <h5 class="card-title">Depilador facial</h5>
+                  <p class="card-text">Gran depilador facial, sirve para los cabellos del cuerpo femeninos, utiliza una batería AA, no irrita y es practico para llevar en tu bolso, todos los productos de esta pagina tienen 3 meses de garantia.</p>
+                 <a href="compras.html" class="btn btn-primary">Ordena Este producto</a>
+             </div>
+            </div>
+        </div>
+        <div class="col-md-4  mb-4  ">
+            <div class="card" style="width: 18rem;">
+                <img src="product5.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <span class="badge text-bg-success">Disponible</span>
+                 <h5 class="card-title">Depilador de cejas</h5>
+                  <p class="card-text">Gran depilador para perfilar las cejas, muy facil de usar, es recargable e inalambrico, comodo e ideal para llevar en tu bolso.</p>
+                 <a href="compras.html" class="btn btn-primary">Ordena Este Producto</a>
+             </div>
+            </div>
+        </div>
+      
+     </div>
+ </div>
+</section>
+
+        <!--FOOTER -->
+<section>
+   <div clas="container">   
+    <div class="row">
+    
+          <form class="row g-3 text-center">
+            <h2 class="">Te Contactamos</h2>
+              <div class="col">
+                <label for="inputPassword2" class="visually-hidden"></label>
+                <input type="text" class="form-control" id="inputPassword2" placeholder="Nombre">
+              </div>
+            <div class="col ">
+              <label for="inputPassword2" class="visually-hidden">Password</label>
+              <input type="text" class="form-control" id="inputPassword2" placeholder="celular">
+            </div>
+            <div class="row">
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Escribenos tu inquietud</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+            </div>
+            
+            <div class="col">
+              <button type="submit" class="btn btn-primary mb-3">Enviar información</button>
+            </div>
+          </form>
+      </div>
+        
+        </div>
+     
+
+      </section>
+    <footer id="footer" class="pb-4 pt-4">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-12 col-lg"> 
+                    <a href="#">Preguntas frecuentes</a>
+                </div>
+                <div class="col-12 col-lg"> 
+                    <a href="#">Contactanos</a>
+                </div>
+                <div class="col-12 col-lg"> 
+                    <a href="#">Prensa</a>
+                </div>
+                <div class="col-12 col-lg"> 
+                    <a href="#">Terminos y condiciones</a>
+                </div>
+                <div class="col-12 col-lg"> 
+                    <a href="#">Privacidad</a>
+                </div>
+                <div class="col-12 col-lg"> 
+                    <a href="#">estudiantes</a>
+                </div>
+
+            </div>
+        </div>
+
+    </footer>
+        <!--FOOTER/-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
+</html>

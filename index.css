@@ -1,0 +1,25 @@
+.logo{
+    height: 50px;
+    width: 50px;
+}
+
+a{
+    color:white;
+}
+
+#footer a {
+    color:white;
+}
+#footer {
+    background: black;
+}
+
+#main .carousel-inner img {
+    max-height: 50vh;
+
+}
+
+img{
+    width: 200px;
+}
+
